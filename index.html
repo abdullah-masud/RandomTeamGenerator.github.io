@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Random Team Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Random Team Generator</h1>
+        </div>
+
+        <div class="nameInput">
+            <form>
+                <label for="fname" style="font-size:larger; margin-left: 109px; color: white;">Player Names </label><br/><br/>
+                <input type="text" id="playerNames" name="fname" autocomplete="off"><br/><br/>
+                <button type="button" id="addPlayers" style="margin-left: 124px; padding: 5px;">Add Players</button>
+            </form>
+
+            <button id="generateBtn">Generate</button>
+
+            <form>
+                <label for="fname" style="font-size:larger; margin-left: 93px; color: white;">Teams Generated </label><br/><br/>
+                <input type="text" id="generatedNames1" name="fname" autocomplete="off" style="display: block;">
+                <input type="text" id="generatedNames2" name="fname" autocomplete="off" style="display: block;">
+            </form>
+        </div>
+
+
+        <div class="show">
+            <ol id="playerList" style="text-align: center; color:rgb(255, 255, 255)">
+                Players Added
+            </ol>
+        </div>
+
+
+        <div class="footer" style="color: white;">
+            © 2021 Abdullah Al Masud. All Rights Reserved.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
